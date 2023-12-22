@@ -1,0 +1,199 @@
+<style>
+
+    .slide-in {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+        body {
+        font-family: Arial, sans-serif;
+        background-image: url('background.jpg'); 
+        background-size: cover;
+        background-position: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        font-size: 15vh;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: #ffffff;
+        padding: 0vh;
+        text-align: center;
+        text-decoration:;
+    }
+
+    header img{
+        margin-top: 1%;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 1vh;
+        box-shadow: 0 0 15vh rgba(0, 0, 0, 0.2);
+        justify-content: center;
+    }
+    
+    nav li {
+        margin-right: 60px; 
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+        font-size: 5vh;
+    }
+    
+    nav a:hover {
+        color: #ffcc00;
+    }
+
+    #introduction-du-personnage {
+        background-color: rgba(255, 255, 255, 0.7);
+        margin: 10vh;
+        padding: 10vh;
+        border-radius: 5vh;
+        box-shadow: 0 0 15vh rgba(0, 0, 0, 0.2);
+    }
+
+    #introduction-du-personnage h1 { 
+        font-size: 12vh;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 0;
+        text-align: center;
+        text-decoration:;
+    }
+
+    #introduction-du-personnage p {
+        font-size: 3.5vh;
+        font-family:'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 0;
+        text-align: left;
+        text-decoration:;
+    }
+
+    #experiences {
+        background-color: rgba(255, 255, 255, 0.7);
+        margin: 10vh;
+        padding: 10vh;
+        border-radius: 5vh;
+        box-shadow: 0 0 15vh rgba(0, 0, 0, 0.2);
+    }
+
+    #experiences h1 {
+        font-size: 12vh;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin-top: 0vh;
+        text-align: center;
+        text-decoration:;
+
+    }
+
+    #experiences p {
+        font-size: 6vh;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 0;
+        text-align: center;
+        text-decoration:;
+    }
+
+
+    #recette-list-section{
+        background-color:rgba(255, 255, 255, 0.4);
+        margin: 10vh;
+        padding: 10vh;
+        border-radius: 5vh;
+        box-shadow: 0 0 15vh rgba(0, 0, 0, 0.2);
+    }
+
+    #recette-list-section h2{
+        font-size: 12vh;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin-top: 0vh;
+        text-align: center;
+        text-decoration:;
+    }
+
+    #recette-list-section ul{
+        font-size: 4vh;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 0;
+        text-align: center;
+        text-decoration:;
+        font-style: italic;
+    }
+ 
+    #recette-list-section img{
+        display: flex;
+        width: 60vh;
+        height: auto;
+        justify-content: center;
+        margin-left: 27%;
+    }
+
+
+    #contact {
+        background-color:rgba(255, 255, 255, 0.4);
+        margin: 10vh;
+        padding: 10vh;
+        border-radius: 5vh;
+        box-shadow: 0 0 15vh rgba(0, 0, 0, 0.2);
+    }
+
+    #contact a {
+        font-size: 4vh;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 0;
+        text-align: left;
+        text-decoration:;
+    }
+    #contact h1 {
+        font-size: 6vh;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 0;
+        text-align: left;
+        text-decoration:;
+        font-style: italic;
+
+    }
+
+    #contact h3 {
+        font-size: 3vh;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 0;
+        text-align: left;
+        text-decoration:;
+        font-style: italic;
+
+    }
+
+    #contact p {
+        font-size: 4vh;
+        font-family: 'Courier New', Courier, monospace;
+        color: #000000;
+        margin: 0;
+        text-align: left;
+        text-decoration:;
+    }
